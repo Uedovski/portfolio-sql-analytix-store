@@ -1,0 +1,10 @@
+use ecommerce;
+SELECT 
+    DATE_FORMAT(p.data_pedido, '%Y-%m-01') AS mes,
+    COUNT(DISTINCT p.pedido_id) AS qtd_pedidos,
+    ROUND(AVG(p.total), 2) AS ticket_medio,
+    ROUND(SUM(p.total), 2) AS receita_total
+FROM pedidos p
+WHERE p.status != 'cancelado'
+GROUP BY mes
+ORDER BY mes DESC;
