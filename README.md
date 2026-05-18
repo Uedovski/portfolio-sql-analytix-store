@@ -1,4 +1,4 @@
-# portfolio-sql-analytix-store
+# SQL Analytics 
 Projeto livre de SQL - Análise de Vendas de E-commerce (MySQL)
 ## Sobre o projeto
 Sistema de análise de vendas de uma loja online de eletrônicos. Inclui modelagem de banco de dados, inserção de dados e consultas analíticas avançadas.
