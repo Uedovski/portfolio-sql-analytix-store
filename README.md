@@ -11,7 +11,7 @@ Sistema de análise de vendas de uma loja online de eletrônicos. Inclui modelag
 ## Arquivos do projeto
 - `seed.sql`  - Criação das tabelas e índices
 - `seed2.sql` - Dados de exemplo realistas
-- `ticketmedio_mes,top_clientes.sql, top_vendedores.sql, vendas_estado.sql, vendas_por_cat.sql` - consultas analíticas intermediárias
+- `ticketmedio_mes,top_clientes.sql, top_vendedores.sql, vendas_estado.sql, vendas_por_cat.sql` - consultas analíticas 
 
 ## Como executar
 1. Execute o `seed.sql`
